@@ -1,0 +1,39 @@
+body {
+    font-family: 'Softers', bold;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    color: rgb(18, 0, 158);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(
+      to right,blue ,white 30%, yellow  );
+      background-size: 200% auto;
+  
+  }
+  
+  
+  #app {
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  button {
+    margin-left: 15px;
+  }
+  
+  
+  .custom-input {
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    outline:none;
+    font-family: 'Courier New', Courier, monospace;
+    width:auto !important;
+    ;
+  }
